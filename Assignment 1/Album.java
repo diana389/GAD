@@ -1,14 +1,14 @@
 public class Album extends Book{
     String paper_quality;
 
-    public Album (String name, int number_page, String paper_quality) {
-        this.name = name;
-        this.number_pages = number_page;
+    public Album (String name, int numberPages, String paper_quality) {
+        super.name = name;
+        super.numberPages = numberPages;
         this.paper_quality = paper_quality;
     }
 
     @Override
     public String toString () {
-        return name + " " + number_pages + " " + paper_quality;
+        return name + " " + numberPages + " " + paper_quality;
     }
 }
