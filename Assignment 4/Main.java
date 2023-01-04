@@ -1,4 +1,4 @@
-package Assignment3;
+package Assignment4;
 
 import java.io.*;
 import java.util.Comparator;
@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        FileReader f = new FileReader("src\\Assignment3\\athlete.csv");
+        FileReader f = new FileReader("src\\Assignment4\\athlete.csv");
         AthleteCSVReader reader = new AthleteCSVReader();
         List<Athlete> athletes = reader.readAthletes(f);
 

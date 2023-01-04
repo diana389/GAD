@@ -1,4 +1,4 @@
-package Assignment3;
+package Assignment4;
 
 public class Athlete implements Comparable {
     private final int athleteNumber;
